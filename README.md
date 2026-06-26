@@ -44,9 +44,9 @@ The report is four pages, each answering one question:
 ## Project structure
 
 ```
-├── World Cup Dashboard.pbix          # Full Power BI report (all 4 pages)
+├── WorldCupDashboard.pbix                          # Full Power BI report (all 4 pages)
 ├── data/
-│   └── WorldCupMatches.csv           # Source dataset
+│   └── WorldCupMatches-selected-columns.csv        # Source dataset
 ├── screenshots/
 │   ├── 01-tournament-overview.png
 │   ├── 02-country-performance.png
