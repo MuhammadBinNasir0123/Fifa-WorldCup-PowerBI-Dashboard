@@ -56,8 +56,3 @@ The report is four pages, each answering one question:
 └── README.md
 ```
 
-## View it yourself
-
-1. Download `World Cup Dashboard.pbix`
-2. Open it in [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads) (free)
-3. Use the year slicer on the Country Performance and Summary pages — every chart on those pages responds live
