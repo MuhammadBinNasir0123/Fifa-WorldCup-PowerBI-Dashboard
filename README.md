@@ -2,7 +2,7 @@
 
 An interactive Power BI report analyzing 256 matches across four FIFA World Cup tournaments (2002–2014), built to answer three questions: what does the overall tournament picture look like, which countries performed best, and how did goals tell the story.
 
-![Summary dashboard](screenshots/04-summary.png)
+![Summary dashboard]"C:\Users\ABC\OneDrive\Pictures\Screenshots\Screenshot 2026-06-26 105649.png"
 
 ## Why this dataset
 
