@@ -4,7 +4,7 @@ An interactive Power BI report analyzing 256 matches across four FIFA World Cup 
 
 ## Why this dataset
 
-World Cup match data is small and clean enough to model end-to-end : cleaning, DAX, and design : in a single project, while still raising real analytical questions: does home advantage hold up across tournaments hosted in different countries? Are finals actually more cautious than earlier rounds? The answers aren't obvious from the raw rows, which is what makes it worth building a dashboard instead of just reading the CSV.
+World Cup match data is small and clean enough to model end-to-end : cleaning, DAX, and design ; in a single project, while still raising real analytical questions, does home advantage hold up across tournaments hosted in different countries? Are finals actually more cautious than earlier rounds? The answers aren't obvious from the raw rows, which is what makes it worth building a dashboard instead of just reading the CSV.
 
 ## Key findings
 
