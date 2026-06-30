@@ -4,7 +4,7 @@ An interactive Power BI report analyzing 256 matches across four FIFA World Cup 
 
 ## Why this dataset
 
-World Cup match data is small and clean enough to model end-to-end — cleaning, DAX, and design — in a single project, while still raising real analytical questions: does home advantage hold up across tournaments hosted in different countries? Are finals actually more cautious than earlier rounds? The answers aren't obvious from the raw rows, which is what makes it worth building a dashboard instead of just reading the CSV.
+World Cup match data is small and clean enough to model end-to-end : cleaning, DAX, and design : in a single project, while still raising real analytical questions: does home advantage hold up across tournaments hosted in different countries? Are finals actually more cautious than earlier rounds? The answers aren't obvious from the raw rows, which is what makes it worth building a dashboard instead of just reading the CSV.
 
 ## Key findings
 
@@ -29,17 +29,17 @@ The report is four pages, each answering one question:
 
 ## Approach
 
-**Data modeling** — Cleaned and structured the raw match data in Power Query, then built custom DAX measures for win rate, home/away win percentage, and average goals by stage rather than relying on default aggregations.
+**Data modeling** : Cleaned and structured the raw match data in Power Query, then built custom DAX measures for win rate, home/away win percentage, and average goals by stage rather than relying on default aggregations.
 
-**Design decisions, not just defaults** — Every visual uses a consistent white-card, soft-shadow, single-accent-color treatment instead of Power BI's default styling. The summary page isn't a fifth arbitrary page — it's a deliberate composition of the strongest visual from each of the other three, built so the dashboard's main story can be read in one screen.
+**Design decisions, not just defaults** : Every visual uses a consistent white-card, soft-shadow, single-accent-color treatment instead of Power BI's default styling. The summary page isn't a fifth arbitrary page , it's a deliberate composition of the strongest visual from each of the other three, built so the dashboard's main story can be read in one screen.
 
-**Known limitation, stated rather than hidden** — Country win totals are calculated from home-team appearances; a fully accurate per-country win count would require unpivoting home/away teams into a single dimension table. This was a deliberate scope decision for a four-tournament dataset, not an oversight — noted here rather than left for a reviewer to catch.
+**Known limitation, stated rather than hidden** : Country win totals are calculated from home-team appearances; a fully accurate per-country win count would require unpivoting home/away teams into a single dimension table. This was a deliberate scope decision for a four-tournament dataset, not an oversight — noted here rather than left for a reviewer to catch.
 
 ## Tools
 
-- **Power BI Desktop** — data modeling, DAX, report design
-- **Power Query** — data cleaning and transformation
-- **DAX** — custom measures for win rate, home/away splits, and stage-level scoring
+- **Power BI Desktop** : data modeling, DAX, report design
+- **Power Query** : data cleaning and transformation
+- **DAX** : custom measures for win rate, home/away splits, and stage-level scoring
 
 ## Project structure
 
@@ -52,7 +52,6 @@ The report is four pages, each answering one question:
 │   ├── 02-country-performance.png
 │   ├── 03-goals-analysis.png
 │   └── 04-summary.png
-├── LICENSE
 └── README.md
 ```
 
