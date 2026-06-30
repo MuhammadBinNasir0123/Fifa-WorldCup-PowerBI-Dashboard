@@ -33,7 +33,7 @@ The report is four pages, each answering one question:
 
 **Design decisions, not just defaults** : Every visual uses a consistent white-card, soft-shadow, single-accent-color treatment instead of Power BI's default styling. The summary page isn't a fifth arbitrary page , it's a deliberate composition of the strongest visual from each of the other three, built so the dashboard's main story can be read in one screen.
 
-**Known limitation, stated rather than hidden** : Country win totals are calculated from home-team appearances; a fully accurate per-country win count would require unpivoting home/away teams into a single dimension table. This was a deliberate scope decision for a four-tournament dataset, not an oversight — noted here rather than left for a reviewer to catch.
+**Known limitation, stated rather than hidden** : Country win totals are calculated from home-team appearances; a fully accurate per-country win count would require unpivoting home/away teams into a single dimension table. This was a deliberate scope decision for a four-tournament dataset, not an oversight , noted here rather than left for a reviewer to catch.
 
 ## Tools
 
